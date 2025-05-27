@@ -1,6 +1,6 @@
 # Uni Test
 
-A TypeScript project with Jest testing setup.
+A TypeScript project demonstrating both vanilla TypeScript and Jest testing approaches.
 
 ## Setup
 
@@ -10,15 +10,20 @@ A TypeScript project with Jest testing setup.
 pnpm install
 ```
 
-2. Run tests:
+2. Run vanilla TypeScript tests:
 
 ```bash
-pnpm test
+pnpm vanilla-test
+```
+
+3. Run Jest framework tests:
+
+```bash
+pnpm jest-test
 ```
 
 ## Project Structure
 
-- `testMethod.ts` - Main implementation file
-- `testMethod.test.js` - Test file with Jst
+- `testMethod.ts` - Testing with vanilla TypeScript
+- `testMethod.test.js` - Jest-based test
 - `package.json` - Project configuration and dependencies
-- `tsconfig.json` - TypeScript configuration
