@@ -19,6 +19,6 @@ pnpm test
 ## Project Structure
 
 - `testMethod.ts` - Main implementation file
-- `testMethod.test.js` - Test file with Jst 
+- `testMethod.test.js` - Test file with Jst
 - `package.json` - Project configuration and dependencies
 - `tsconfig.json` - TypeScript configuration
